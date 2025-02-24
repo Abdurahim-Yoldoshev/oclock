@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #cccccccc;
+    font-weight: 550;
+}
+
+body{
+    background-color: #242830;
+}
+
+.screen{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oclock{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.oclock div{
+    font-size: 500px;
+    cursor: default;
+}
+
+.oclock .animation{
+    animation: show 1s ease-out infinite;
+    height: 100%; 
+}
+
+@keyframes show {
+    0%{
+        opacity: 1;
+    }100%{
+        opacity: 0;
+    }
+}
+
+.animation div{
+    height: 50px;
+    width: 50px;
+    background-color: #cccccccc;
+    margin-top: 100%;
+    border-radius: 50%;
+}
+
+.animation div:nth-child(1){
+    margin-top: 170px;
+}
+
+.animation div:nth-child(2){
+    margin-top: 140px;
+}
