@@ -10,7 +10,7 @@ function upDateClock() {
     };
 
     if (now.getMinutes < 10) {
-        minutes.innerHTML = `0${now.getMinutes().toString()}`;
+        minutes.innerHTML =`0${now.getMinutes().toString()}`;
     } else {
         minutes.innerHTML = now.getMinutes().toString();
     };
