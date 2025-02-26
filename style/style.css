@@ -58,3 +58,42 @@ body{
 .animation div:nth-child(2){
     margin-top: 140px;
 }
+
+@media (max-width: 950px){
+    .oclock div{
+        font-size: 350px;
+    }
+
+    .animation div:nth-child(1){
+        margin-top: 170%;
+    }
+}
+
+@media (max-width: 600px){
+    .oclock{
+        display: block;
+    }
+
+    .animation{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 0;
+    }
+
+    .animation{
+        margin-top: -200px;
+    }
+
+    .animation div:nth-child(1){
+        margin-top: 180px;
+    }
+
+    .animation div:nth-child(2){
+        margin-top: 180px;
+    }
+
+    #hours{
+        margin-top: 0;
+    }
+}
